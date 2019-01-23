@@ -10,6 +10,7 @@ rule "成人確認2"
 		$学生 : 学生( 年齢 >= 20 )
 	then
 		$学生.set飲酒可否( true );
+		System.out.println("### " + $学生.名前 + "はお酒が飲めます！" );
 end
 
 
