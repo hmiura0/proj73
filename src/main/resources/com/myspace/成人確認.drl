@@ -3,7 +3,7 @@ package com.myspace.proj72;
 import java.lang.Number;
 import com.myspace.学生;
 
-rule "成人確認"
+rule "成人確認2"
     ruleflow-group "確認"
 	dialect "mvel"
 	when
