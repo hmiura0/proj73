@@ -1,2 +1,15 @@
-package com.myspace;
+package com.myspace.proj72;
+
+import java.lang.Number;
+import com.myspace.学生;
+
+rule "成人確認"
+    ruleflow-group "確認"
+	dialect "mvel"
+	when
+		$学生 : 学生( 年齢 >= 20 )
+	then
+		$学生.set飲酒可否( true );
+end
+
 
