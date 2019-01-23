@@ -6,12 +6,54 @@ package com.myspace;
 
 public class 学生 implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public 学生() {
-    }
+	private java.lang.String 名前;
+	private int 年齢;
+	private java.lang.String 性別;
+	private java.lang.Boolean 飲酒可否;
 
+	public 学生() {
+	}
 
+	public java.lang.String get名前() {
+		return this.名前;
+	}
 
+	public void set名前(java.lang.String 名前) {
+		this.名前 = 名前;
+	}
+
+	public int get年齢() {
+		return this.年齢;
+	}
+
+	public void set年齢(int 年齢) {
+		this.年齢 = 年齢;
+	}
+
+	public java.lang.String get性別() {
+		return this.性別;
+	}
+
+	public void set性別(java.lang.String 性別) {
+		this.性別 = 性別;
+	}
+
+	public java.lang.Boolean get飲酒可否() {
+		return this.飲酒可否;
+	}
+
+	public void set飲酒可否(java.lang.Boolean 飲酒可否) {
+		this.飲酒可否 = 飲酒可否;
+	}
+
+	public 学生(java.lang.String 名前, int 年齢, java.lang.String 性別,
+			java.lang.Boolean 飲酒可否) {
+		this.名前 = 名前;
+		this.年齢 = 年齢;
+		this.性別 = 性別;
+		this.飲酒可否 = 飲酒可否;
+	}
 
 }
