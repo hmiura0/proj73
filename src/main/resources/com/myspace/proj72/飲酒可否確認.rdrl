@@ -1,0 +1,9 @@
+package com.myspace.proj72;
+
+import java.lang.Number;
+
+rule "飲酒可否確認"
+	dialect "mvel"
+	when
+	then
+end
