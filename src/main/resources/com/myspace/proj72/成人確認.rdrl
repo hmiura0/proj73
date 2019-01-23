@@ -3,7 +3,7 @@ package com.myspace.proj72;
 import java.lang.Number;
 import com.myspace.学生;
 
-rule "飲酒可否確認"
+rule "成人確認"
 	dialect "mvel"
 	when
 		$学生 : 学生( 年齢 >= 20 )
