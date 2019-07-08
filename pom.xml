@@ -8,6 +8,15 @@
   <packaging>kjar</packaging>
   <name>proj72</name>
   <description></description>
+  
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+  
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
