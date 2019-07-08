@@ -3,16 +3,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-ga-repository</id>
-        <url>https://maven.repository.redhat.com/ga/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-ga-plugin-repository</id>
-        <url>https://maven.repository.redhat.com/ga/</url>
+        <id>internal-repository-7.0</id>
+        <url>http://download.eng.pek2.redhat.com/brewroot/repos/jb-bxms-7.0-maven-build/latest/maven/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -30,6 +22,22 @@
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-ga-repository</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-ga-plugin-repository</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
