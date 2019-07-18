@@ -11,9 +11,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/home/hmiura/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>releases</id>
+        <url>http://nexus-rhpam73.apps.hmiura01.lab.pnq2.cee.redhat.com/nexus/content/repositories/test/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -22,6 +22,14 @@
         <id>jboss-ga-repository</id>
         <url>https://maven.repository.redhat.com/ga/</url>
         <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/home/hmiura/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
@@ -37,6 +45,14 @@
       <metadata>
         <id>internal-repository-7.0</id>
         <url>http://download.eng.pek2.redhat.com/brewroot/repos/jb-bxms-7.0-maven-build/latest/maven/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots</id>
+        <url>http://nexus-rhpam73.apps.hmiura01.lab.pnq2.cee.redhat.com/nexus/content/repositories/test-shapshot/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
